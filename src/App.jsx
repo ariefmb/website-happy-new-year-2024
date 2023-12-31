@@ -8,6 +8,7 @@ function App() {
     const [newYearMessage, setNewYearMessage] = useState([
         "Terima Kasih 2023 😊😊",
     ]);
+    
     const particleInit = async (engine) => {
         await loadFireworksPreset(engine);
     };
